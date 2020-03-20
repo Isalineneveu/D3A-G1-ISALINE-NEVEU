@@ -1,0 +1,105 @@
+body{
+background: url('images/lumiere.jpg');top center no-repeat;
+background-attachment: fixed;}
+
+nav ul {
+display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+
+}
+
+header h1 {margin: 10px;
+padding-top:120px;
+font-size: 4em;
+color:#4D6D8F;
+text-align: center;
+}
+
+header h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+section{
+  min-height:98vh;
+  border-bottom:1px solid black;
+}
+
+.menu-close {
+  background:#4D6D8F;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  color: white;
+
+}
+
+
+#main-menu ul a {
+  display:block;
+padding:10px;
+margin-bottom:7px;
+}
+
+
+
+#main-menu {
+  background: white;
+  opacity: 5;
+  position:absolute;
+  top:250px;
+  left: -50%;
+  z-index:999;
+  transition: 2s all ease;
+}
+
+
+#main-menu:target {
+  left:50%;
+  transform: translateX(-50%);
+}
+
+
+.toggle-menu {
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+#projets h1 {
+  padding-left: 40px;
+  padding-top: 200px;
+}
+
+figcaption h2 {padding-top: 20px;}
+
+.projet-feature-content{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+text-align: center;
+}
+
+.projet-feature {
+  padding:1em;
+flex-basis: 320px;
+flex-grow: 1;
+flex-shrink:1}
+
+.photographie-feature-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 200px;
+}
+
+.photographie-feature  {
+margin: 10px;
+flex-grow:1;
+
+}
