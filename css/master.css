@@ -11,8 +11,8 @@ display: flex;
 
 header h1 {margin: 10px;
 padding-top:120px;
-font-size: 4em;
-color:#4D6D8F;
+font-size: 7em;
+color:#E5B967;
 text-align: center;
 }
 
@@ -23,7 +23,6 @@ header h2 {
 
 section{
   min-height:98vh;
-  border-bottom:1px solid black;
 }
 
 .menu-close {
@@ -72,12 +71,13 @@ margin-bottom:7px;
 }
 
 
-#projets h1 {
+#Identité h1 {
   padding-left: 40px;
   padding-top: 200px;
 }
 
-figcaption h2 {padding-top: 20px;}
+figcaption h2 {padding-top: 20px;
+object-fit: contain;}
 
 .projet-feature-content{
 display: flex;
@@ -92,14 +92,44 @@ flex-basis: 320px;
 flex-grow: 1;
 flex-shrink:1}
 
-.photographie-feature-content{
+
+
+
+#packaging h1{
+  padding-top: 120px;
+}
+
+.packaging-feature-content{
   display: flex;
   flex-wrap: wrap;
   flex-basis: 200px;
+  text-align: center;
 }
 
-.photographie-feature  {
+.packaging-feature  {
 margin: 10px;
-flex-grow:1;
+flex-basis: 320px;
+flex-grow: 1;
+flex-shrink:1
+}
 
+
+
+
+#typoedition h1{
+  padding-top: 120px;
+}
+
+.typoedition-feature-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 200px;
+  text-align: center;
+}
+
+.typoedition-feature  {
+margin: 10px;
+flex-basis: 320px;
+flex-grow: 1;
+flex-shrink:1
 }
