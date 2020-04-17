@@ -40,6 +40,11 @@ section{
 }
 
 
+
+
+
+
+
 #main-menu ul a {
   display:block;
 padding:10px;
@@ -47,6 +52,21 @@ margin-bottom:7px;
 opacity:50;
 }
 
+#main-menu ul #linkpub {
+text-decoration:underline #C6A5DA;
+}
+
+#main-menu ul #linkidentite {
+text-decoration:underline #EAAAF1;
+}
+
+#main-menu ul #linktypo {
+text-decoration:underline #C3AAF1;
+}
+
+#main-menu ul #linkcontact {
+text-decoration:underline #A8A3E7;
+}
 
 
 #main-menu {
@@ -54,7 +74,7 @@ opacity:50;
   opacity:50;
   position:absolute;
 margin-top:250px;
-  left: -50%;
+  left:-50%;
   z-index:999;
   transition: 2s all ease;
 }
@@ -67,6 +87,11 @@ margin-top:250px;
 }
 
 
+
+
+
+
+
 .toggle-menu {
   display: block;
   width: 300px;
@@ -74,6 +99,8 @@ margin-top:250px;
   margin: 0 auto;
   opacity:50;
 }
+
+
 
 
 #Identité h1 {
@@ -101,6 +128,9 @@ flex-shrink:1}
 
 
 
+
+
+
 #publicité h1{
   font-size: 4em;
   padding-left: 40px;
@@ -121,6 +151,9 @@ flex-basis: 320px;
 flex-grow: 1;
 flex-shrink:1
 }
+
+
+
 
 
 
@@ -145,6 +178,11 @@ flex-grow: 1;
 flex-shrink:1
 }
 
+.barry #tel {
+margin-left: : 200px,
+}
+
+
 
 #Contact h1{
   font-size: 4em;
@@ -152,4 +190,12 @@ flex-shrink:1
   padding-top: 500px;
   text-align: center;
   padding-top: 120px;
+}
+
+.video {
+  text-align: center;
+  margin-top: 100px;
+}
+.texte {
+  font-size:0,2em;
 }
